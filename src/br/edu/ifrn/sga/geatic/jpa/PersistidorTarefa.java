@@ -12,7 +12,7 @@ public class PersistidorTarefa {
 		
 		Tarefa tarefa = new Tarefa();
 		
-		tarefa.setDescricao("Estudar Programação");
+		tarefa.setDescricao("Estudar Programacao");
 		tarefa.setFinalizado(true);
 		
 		em.persist(tarefa);
